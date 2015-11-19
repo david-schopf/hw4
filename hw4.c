@@ -6,6 +6,45 @@
 int size;
 int matrix[10][10];
 
+bool isDiagonal() {
+    int row = 0;
+    int column = 0;
+
+    for (row = 0; row < size; row ++) {
+        for (column = 0; column < size; column ++) {
+
+        }
+    }
+
+    return true;
+}
+
+bool isSymmetric() {
+    int row = 0;
+    int column = 0;
+
+    for (row = 0; row < size; row ++) {
+        for (column = 0; column < size; column ++) {
+
+        }
+    }
+
+    return true;
+}
+
+bool isSkewSymmetric() {
+    int row = 0;
+    int column = 0;
+
+    for (row = 0; row < size; row ++) {
+        for (column = 0; column < size; column ++) {
+
+        }
+    }
+
+    return true;
+}
+
 int main() {
 
     printf("Enter the size of the matrix\n");
@@ -31,8 +70,14 @@ int main() {
 
     printf("RESULT\n");
 
+    if (isDiagonal())
+        printf("The matrix is diagonal\n");
+    if (isSymmetric())
+    printf("The matrix is symmetric\n");
+    if (isSkewSymmetric())
+    printf("The matrix is skew - symmetric\n");
+
     // Success
     return 0;
-
-
 }
+
