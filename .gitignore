@@ -1,3 +1,7 @@
+#intelliJ
+.idea
+.idea/*
+
 # Object files
 *.o
 *.ko
